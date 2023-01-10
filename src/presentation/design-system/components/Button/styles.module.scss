@@ -1,0 +1,18 @@
+.crm-button {
+  width: 5.625rem;
+  height: 3.313rem;
+  background: var(--blue-dark);
+  border: 0;
+  border-radius: 8px;
+  color: var(--white);
+  gap: 0.35rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.crm-button:hover {
+  background: var(--blue-900);
+}
